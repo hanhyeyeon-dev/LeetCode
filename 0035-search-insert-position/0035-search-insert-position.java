@@ -9,7 +9,7 @@ class Solution {
                 return mid;
             } else if (nums[mid] < target) { // 3 < 5, true
                 start = mid + 1; // 1
-            } else if (nums[mid] > target) {
+            } else {
                 end = mid - 1;
             }
         }
